@@ -20,7 +20,9 @@
         └── train_rf.py #
 ```
 
-# 🚗 Horn Detector — схема работы
+# 🚗 Horn Detector
+
+Детекция автомобильного гудка в реальном времени
 
 ## 1️⃣ Готовим данные
 - Размечаем аудио в **Audacity** (вырезаем чистые гудки).
@@ -53,20 +55,21 @@ python train_rf.py
 ```bash
 python realtime_file.py
 ```
-
+![img.png](runtime/image/img.png)
 ---
 
-### 🎤 Реальный микрофон
+### 🎤 Микрофон
 
 ```bash
 python realtime_mic.py
 ```
-
+![diag.png](runtime/image/diag.png)
 В консоли:
 
 ```
 RMS: 0.0123
 >>> HORN DETECTED <<<
 ```
+
 
 ---
