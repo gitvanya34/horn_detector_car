@@ -55,7 +55,7 @@ python train_rf.py
 ```bash
 python realtime_file.py
 ```
-![img.png](runtime/image/img.png)
+![img.png](horn_ml/runtime/image/img.png)
 ---
 
 ### 🎤 Микрофон
@@ -63,7 +63,7 @@ python realtime_file.py
 ```bash
 python realtime_mic.py
 ```
-![diag.png](runtime/image/diag.png)
+![diag.png](horn_ml/runtime/image/diag.png)
 В консоли:
 
 ```
